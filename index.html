@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo web</title>
+    <!--ESTILOS EN BLOQUE Y no linea-->
+    <style>
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+        }
+
+        li {
+            display: inline;
+        }
+
+        .nav1 {
+            text-align: right;
+        }
+
+        .nav2 {
+            text-align: left;
+        }
+
+        p {
+            font-size: small;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: larger;
+            text-align: center;
+        }
+
+        .texto {
+            font-size: large;
+        }
+
+        h2 {
+            font-size: larger;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: small;
+            text-align: center;
+        }
+
+        th {
+            font-size: smaller;
+            text-align: center;
+        }
+    </style>
+    <!-- ESTILO en linea solo afecta a etiqueta en la que se contiene-->
+
+</head>
+
+<body>
+    <!-- MENU NAVEGACION-->
+
+    <nav style="background-color: #000000; width: 100%; height: 70px;">
+        <!--MENU 1-->
+        <div style="width: 40%; float: left;  ">
+
+
+            <ul class="nav1">
+                <li>
+                    <a href="EjemploWeb.html">Inicio</a>
+
+                </li>
+                <li>
+                    <a href="Paginas/acerca-de.html">Acerca de</a>
+                </li>
+                <li>
+
+                    <a href="Paginas/Servicios.html">Servicios</a>
+                </li>
+            </ul>
+        </div>
+        <!-- LOGO -->
+        <div style="width: 10%;float: left; text-align: center;">
+            <img src="img/galaxia.png" alt="" ; style="width: 50px;">
+
+        </div>
+        <!-- MENU 2-->
+        <div style="width: 40%; float: left;">
+
+            <ul class="nav2">
+
+                <li>
+
+                    <a href="Paginas/Galeria.html">Galeria</a>
+                </li>
+                <li>
+
+                    <a href="Paginas/Planes.html">Planes</a>
+                </li>
+                <li>
+                    <a href="Paginas/Contacto.html">Contacto </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- banner -->
+    <header style="background-color: #CC4100; width: 100%; height: 250px;">
+
+        <!--TEXTO h1-->
+        <!-- Parrafo-->
+        <!-- correo-->
+
+        <div class="texto" style="background-color: rgb(84, 74, 74); width: 50%; height: 250px; float: left;">
+
+            <div class="espacio1" style="height: 250px; width: 15% ; float: left; "></div>
+
+            <div style="height: 250px; width: 70%; float: left; ">
+                <h1> Descubre tu próximo destino estelar</h1>
+                <p>Sé el primero en recibir rutas interplanetarias, ofertas y destinos nunca antes disponibles. Tu viaje
+                    comienza con un clic.</p>
+                <form action="">
+                    <input type="email" required placeholder="Ingresa tu correo estelar">
+                    <button style="background-color: blue; ;">Despegar</button>
+
+                </form>
+            </div>
+
+            <div class="espacio2" style="height: 250px; width: 15% ;float: left;"></div>
+
+
+        </div>
+        <!--imagen -->
+        <div class="imagen1" style="background-color: palevioletred ; width: 50%; height: 250px; float: left;   ">
+            <img src="img/conductor.webp" style="height: 100%; width: 100%; " alt="">
+
+        </div>
+
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL-->
+    <!-- SECCION MEJORES FOTOGRAFIAS  -->
+    <!-- testimonios  -->
+    <!-- AJenda -->
+    <main style="background-color: rgb(42, 171, 30); height: 1250px; width: 100%;">
+        <!-- FEATURE -->
+        <section style=" background-color: purple; width: 100%; height: 130px;">
+            <div style="background-color: white; width: 100%; height: 30px;">
+                <h2>Destinos Galacticos </h2>
+            </div>
+
+
+            <div style="background-color: aqua; width: 100%; height: 100px;">
+                <div style="width: 20%; height: 100%; float: left;"></div>
+                <div style="width: 60%; height: 100%; float: left;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, reprehenderit? Molestiae ad
+                        expedita eveniet ullam tempore excepturi at laboriosam quo magnam asperiores. Natus modi,
+                        corporis deleniti facere recusandae tempora architecto?</p>
+                </div>
+                <div style="width: 20%; height: 100%; float: left;"></div>
+            </div>
+
+        </section>
+        <!-- Mejores FOtografias-->
+        <section style="background-color: #CC4100; width: 100%;height: 300px;">
+
+            <div style="background-color: white; width: 6%; height: 100%; float: left;"></div>
+
+            <!-- DESTINO 1  -->
+
+            <div style="background-color: grey; width: 25%; height: 100%; float: left">
+                <!-- FOto DESTINO -->
+                <div style="background-color: red; height: 180px; width: 100%; float: left;">
+                    <img src="img/destino1.jpg" style="width: 100%; height: 100%; " alt="">
+
+                </div>
+                <!-- TITULO DESTINO -->
+                <div style="background-color: fuchsia; height: 30px; width: 100%; float: left;">
+
+                    <h3>Explora Nuevos Planetas</h3>
+
+
+                </div>
+
+                <!-- Descripcion DESTINO -->
+                <div style="background-color: yellow; height: 90px; width: 100%; float: left;">
+                    <p style="font-size:  x-small; text-align: left;">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Explicabo porro delectus cupiditate sed dolorum esse ipsa ex ad in eaque? </p>
+
+                </div>
+            </div>
+
+
+            <div style="background-color: white; width: 6%; height: 100%; float: left;"></div>
+            <!-- DESTINO 2  -->
+
+            <div style="background-color: grey; width: 25%; height: 100%; float: left">
+                <!-- FOto DESTINO -->
+                <div style="background-color: red; height: 180px; width: 100%; float: left;">
+                    <img src="img/destino2.jpg" style="width: 100%; height: 100%; " alt="">
+
+                </div>
+                <!-- TITULO DESTINO -->
+                <div style="background-color: fuchsia; height: 30px; width: 100%; float: left;">
+
+                    <h3>Contempla los Imponentes Agujeros Negros</h3>
+
+
+                </div>
+
+                <!-- Descripcion DESTINO -->
+                <div style="background-color: yellow; height: 90px; width: 100%; float: left;">
+                    <p style="font-size:  x-small; text-align: left;">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Explicabo porro delectus cupiditate sed dolorum esse ipsa ex ad in eaque? </p>
+
+                </div>
+            </div>
+
+
+            <div style="background-color: white; width: 6%; height: 100%; float: left;"></div>
+            <!-- DESTINO 3  -->
+
+            <div style="background-color: grey; width: 25%; height: 100%; float: left">
+                <!-- FOto DESTINO -->
+                <div style="background-color: red; height: 180px; width: 100%; float: left;">
+                    <img src="img/destino3.png" style="width: 100%; height: 100%; " alt="">
+
+                </div>
+                <!-- TITULO DESTINO -->
+                <div style="background-color: fuchsia; height: 30px; width: 100%; float: left;">
+
+                    <h3>Navega por Los Pilares de la Creacion</h3>
+
+
+                </div>
+
+                <!-- Descripcion DESTINO -->
+                <div style="background-color: yellow; height: 90px; width: 100%; float: left;">
+                    <p style="font-size:  x-small; text-align: left;">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Explicabo porro delectus cupiditate sed dolorum esse ipsa ex ad in eaque? </p>
+
+                </div>
+            </div>
+            <div style="background-color: white; width: 7%; height: 100%; float: left;"></div>
+
+        </section>
+        <!--TEstimonios-->
+        <section style="background-color: #a03300; width: 100%; height: 400px;">
+            <!-- titulo y descripcion testimonios-->
+
+            <div style="background-color: white; width: 100%; height: 30px;">
+
+                <h2>testimonios </h2>
+
+            </div>
+
+
+            <div style="background-color: aqua; width: 100%; height: 100px;">
+                <div style="width: 20%; height: 100%; float: left;"></div>
+                <div style="width: 60%; height: 100%; float: left;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, reprehenderit? Molestiae ad
+                        expedita eveniet ullam tempore excepturi at laboriosam quo magnam asperiores. Natus modi,
+                        corporis deleniti facere recusandae tempora architecto?</p>
+                </div>
+                <div style="width: 20%; height: 100%; float: left;"></div>
+            </div>
+
+            <!-- 2 TESTIMONIOS CARD-->
+
+            <div style="height: 270px ; width: 100%;">
+
+
+                <div style="height: 250px; width: 100%; background-color: rgb(58, 16, 142);">
+                    <!--Espacio Izquierda-->
+                    <div style="background-color: white; height: 100%; width: 15%; float: left;">
+
+                    </div>
+                    <!--CARD 1-->
+
+                    <div style="background-color: grey; height: 100%; width: 30%; float:left;">
+
+                        <div style="height: 30%; background-color: red; width: 100%;">
+                            IMGAEN
+                        </div>
+                        <div style="background-color: crimson; height: 30%; width: 100%s;">
+                            Texto
+
+                        </div>
+                        <div style="height: 20%; width: 100%; background-color: wheat;">
+                            NOmbre
+
+                        </div>
+                        <div style="background-color: peru; height: 20%; width: 100%;"></div>
+                    </div>
+
+                    <!-- ESPACIO INMEDIO-->
+                    <div style="background-color: #331000; height: 100%; width: 10%; float: left;"></div>
+
+                    <!--CARD 2-->
+
+                    <div style="background-color: grey; height: 100%; width: 30%; float:left;">
+                    </div>
+
+                    <!--Espacio DERECHO-->
+                    <div style="background-color: rgb(255, 255, 255); height: 100%; width: 15%; float: left;  ">
+
+                    </div>
+                    <!-- 3 PUNTOS -->
+
+                    <div style="height: 20px;  width: 100%; background-color: rgb(142, 20, 20); float: left;">
+
+                    </div>
+
+                </div>
+
+
+        </section>
+
+        </section>
+        <!-- Mi Agenda-->
+        <section style="background-color: #5e1076; width: 100%; height: 400px;">
+            <div style="background-color: cyan; height: 50px; width: 100%; float: left;">
+                <h4 style="text-align: center;">AGENDA ESPACIAL</h4>
+
+            </div>
+            <div style="height: 350px; width: 100%; float: left;">
+                <!-- izquierda-->
+                <div style=" background-color: white; width: 15%; height: 100%; float: left;">
+
+                </div>
+                <div style="width: 70% ; height: 100%; float: left;">
+
+                    <table style="text-align: center; width: 100%;  " border="collapse">
+                        <thead style="background-color: #331000; color: aliceblue;">
+                            <tr>
+                                <th>#</th>
+                                <th>nombre</th>
+                                <th>Fecha</th>
+                                <th>Correo </th>
+                                <th>Telefono</th>
+                                <th>ACCION</th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+                                <td>#</td>
+                                <td>Juan</td>
+                                <td>12 -04</td>
+                                <td>juan@gmail.com</td>
+                                <td>234124</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>#</td>
+                                <td>Humberto</td>
+                                <td>11 -04</td>
+                                <td>umberto@gmail.com</td>
+                                <td>234124</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>#</td>
+                                <td>Rosa</td>
+                                <td> 2 -04</td>
+                                <td>rosa@gmail.com</td>
+                                <td>544124</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>#</td>
+                                <td>Jesus</td>
+                                <td>1 -04</td>
+                                <td>jesus@gmail.com</td>
+                                <td>234124</td>
+                                <td>N/A</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+                    <!--cuadro -->
+                </div>
+                <!-- Derecha-->
+                <div style=" background-color: white; width: 15%; height: 100%; float: left;">
+
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+    <!--FOOTER-->
+    <footer style="background-color: #a03300; width: 100%; height: 170px;">
+
+        <!-- LOGO -->
+
+        <div style="background-color: rgb(223, 177, 177); height: 50px; width: 100%;">
+            <div style=" height: 100% ; float: left; width: 100%; text-align: center;"><img src="images/galaxia.png" alt="" height="50px" >
+            </div>
+        </div>
+
+        <!-- MENU NAVEGACION-->
+        <div style="background-color: rgb(130, 114, 114); height: 50px; width: 100%; float: left;">
+
+            <div style="width: 35%; height: 50px; float: left; background-color: #000000;"></div>
+
+            <div style="   width: 30%; height: 50px; float: left; background-color: #000000; ">
+
+
+                <ul class="nav1" style="text-align: center;">
+                    <li>
+                        <a href="EjemploWeb.html">Inicio</a>
+
+                    </li>
+                    <li>
+                        <a href="Paginas/acerca-de.html">Acerca de</a>
+                    </li>
+                    <li>
+
+                        <a href="Paginas/Servicios.html">Servicios</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="width: 35%; height: 50px; float: left; background-color: #000000;">
+
+            </div>
+        </div>
+
+
+        </div>
+
+        <!--REDES -->
+        <div style="background-color: rgb(48, 24, 24); height: 50px; width: 100%; float: left;">
+
+            <div style="width: 30%; height: 100%; float: left;"></div>
+            <div style="width: 10% ; height: 100%; float: left;">
+
+                <img src="img/galaxia.png" alt="" height="40px">
+            </div>
+            <div style="width: 10% ; height: 100%; float: left;">
+
+                <img src="img/galaxia.png" alt="" height="40px">
+            </div>
+            <div style="width: 10% ; height: 100%; float: left;">
+
+                <img src="img/galaxia.png" alt="" height="40px">
+            </div>
+            <div style="width: 10% ; height: 100%; float: left;">
+
+                <img src="img/galaxia.png" alt="" height="40px">
+            </div>
+
+
+            <div style="width: 30%; height: 100%;float: left">
+
+            </div>
+        </div>
+        <div style="width: 100%; height: 30px; background-color: rgb(96, 141, 141); float: left;">
+            
+            
+
+            <p style="display: inline;"> Todos los Derechos REservados </p>
+              
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
